@@ -12,7 +12,7 @@ set -o pipefail
 ievms_version="0.3.1"
 
 # Options passed to each `curl` command.
-curl_opts=${CURL_OPTS:-""}
+curl_opts=${CURL_OPTS:-"k"}
 
 # Reuse XP virtual machines for IE versions that are supported.
 reuse_xp=${REUSE_XP:-"yes"}
